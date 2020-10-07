@@ -1,0 +1,11 @@
+int main(){
+  int width;
+  int height;
+  
+  
+  
+  f = fopen(image, "r);
+  
+  printf("The final width and height are: %d and %d.", width, height);
+return 0;
+}
