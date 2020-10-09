@@ -15,6 +15,7 @@ int main(){
     fread(&width, 4, 1, file);
     fread(&height, 4, 1, file);
     }
-  printf("The final width and height are: %d and %d.", width, height);
+  printf("The final width and height are: %l and %l.\n", width, height);
+  printf("The total size is: %l.\n", size);
 return 0;
 }
